@@ -2,7 +2,7 @@
 
 ## SDC Expansion Board
 
-![Untitled](SDC30%20Expansion%20Board%20with%20Raspberry%20Pi%20aebc9b74ae86490ab954c35bc79a887f/Untitled.png)
+![SCD30-1](https://github.com/user-attachments/assets/4b980975-18e4-49cd-8184-08fc1da20e43)
 
 본 제품은 RODU에서 개발한 SDC30 Expansion Board로 Raspberry Pi에서 호환되며 최대 4개의 센서를 I2C 통신을 통하여 동시에 사용할 수 있는 보드이다.
 
@@ -14,28 +14,27 @@
 
 ## Prototype Appearance
 
-![Untitled](SDC30%20Expansion%20Board%20with%20Raspberry%20Pi%20aebc9b74ae86490ab954c35bc79a887f/Untitled%201.png)
+![SCD30-board](https://github.com/user-attachments/assets/651fc38f-65f8-4a6d-948b-5347123cb672)
 
 실제 라즈베리파이에 부착한 모습으로
 아래에서부터 1~4번으로 사용되며, 쿨러 전원을 위한 핀이 따로 존재한다.
 
 ## Pin Diagram
 
-![Untitled](SDC30%20Expansion%20Board%20with%20Raspberry%20Pi%20aebc9b74ae86490ab954c35bc79a887f/Untitled%202.png)
+![pin](https://github.com/user-attachments/assets/b9250e25-d017-4227-9192-3b1d2960615c)
 
 사용되는 통신 핀의 경우 라즈베리에서 연결되는 SDA/SCL과 전원을 비롯하여 멀티플렉스를 통해 SD1/SC1, SD2/SC2, SD3/SC3, SD4/SC4가 사용된다.
 
 ## Software
+![manual-1](https://github.com/user-attachments/assets/d1c35c14-3ff5-4124-9cd8-e45198f8a4e7)
 
-![Untitled](SDC30%20Expansion%20Board%20with%20Raspberry%20Pi%20aebc9b74ae86490ab954c35bc79a887f/Untitled%203.png)
+![manual-2](https://github.com/user-attachments/assets/f960b530-0199-4830-988c-8555eb9a50aa)
 
-![Untitled](SDC30%20Expansion%20Board%20with%20Raspberry%20Pi%20aebc9b74ae86490ab954c35bc79a887f/Untitled%204.png)
+![manual-3](https://github.com/user-attachments/assets/927f2e72-fc1b-49b2-a379-c1fb5e65009c)
 
-![Untitled](SDC30%20Expansion%20Board%20with%20Raspberry%20Pi%20aebc9b74ae86490ab954c35bc79a887f/Untitled%205.png)
+![manual-4](https://github.com/user-attachments/assets/018050ea-bb71-4d9d-9e47-922b4f989532)
 
-![Untitled](SDC30%20Expansion%20Board%20with%20Raspberry%20Pi%20aebc9b74ae86490ab954c35bc79a887f/Untitled%206.png)
-
-![Untitled](SDC30%20Expansion%20Board%20with%20Raspberry%20Pi%20aebc9b74ae86490ab954c35bc79a887f/Untitled%207.png)
+![manual-5](https://github.com/user-attachments/assets/25b34a6f-37b7-44b7-9be9-6b2e470da0e0)
 
 ```python
 import board
