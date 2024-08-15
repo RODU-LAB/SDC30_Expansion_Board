@@ -19,6 +19,14 @@
 실제 라즈베리파이에 부착한 모습으로
 아래에서부터 1~4번으로 사용되며, 쿨러 전원을 위한 핀이 따로 존재한다.
 
+## Schematic
+
+![SCD_EB_Schematic](https://github.com/user-attachments/assets/18bc97a5-e887-4da0-a90f-4b95ce12b658)
+
+## 3D Board Images
+
+![SCD_EB_3D](https://github.com/user-attachments/assets/1fc55172-2487-40bb-9f25-678a7d6c8dd8)
+
 ## Pin Diagram
 
 ![pin](https://github.com/user-attachments/assets/b9250e25-d017-4227-9192-3b1d2960615c)
